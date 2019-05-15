@@ -12,6 +12,15 @@ export default () => {
     <div id='demo'>
       <div className='buttons'>
         <h2>Demo</h2>
+        <p>
+          All of the code is{' '}
+          <a
+            href='https://github.com/filipdanic/use-array/blob/master/example/src/Demo.js'
+            target='_blank'
+            rel='noopener noreferrer'
+          >available on Github.
+          </a>
+        </p>
         <button onClick={() => filter(item => !item.done)}>
           Remove completed
         </button>

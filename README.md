@@ -1,30 +1,32 @@
+[![NPM](https://img.shields.io/npm/v/use-array.svg)](https://www.npmjs.com/package/use-array)
 # use-array
 
-> A useArray hook for Reactjs
+A custom React hook that lets you manipulate an array data structure without ever needing extra utilities.
 
-[![NPM](https://img.shields.io/npm/v/use-array.svg)](https://www.npmjs.com/package/use-array) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[👉 Demo site and docs.](https://filipdanic.github.io/use-array/)
 
-## Install
+Start with:
 
 ```bash
 npm install --save use-array
 ```
 
-## Usage
+Then, import and use the hook:
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'use-array'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+```javascript
+import useArray from 'use-array'
+// …in your functional component:
+const [ list, {
+  set, empty, replace, push,
+  updateAt, setAt, removeAt,
+  filter, map, sort, reverse,
+  mergeBefore, mergeAfter,
+}] = useArray(defaultList);
 ```
+
+## Docs
+
+The complete documentation as well as a live demo [is available here.](https://filipdanic.github.io/use-array/)
 
 ## License
 
