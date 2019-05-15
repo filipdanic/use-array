@@ -1,10 +1,10 @@
 {
   "name": "use-array",
   "version": "1.0.0",
-  "description": "A useArray hook for Reactjs",
-  "author": "filipdanic",
+  "description": "A custom React hook that lets you manipulate an array data structure without ever needing extra utilities.",
+  "author": "http://danicfilip.com/",
   "license": "MIT",
-  "repository": "filipdanic/use-array",
+  "repository": "http://github.com/filipdanic/use-array",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
