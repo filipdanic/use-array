@@ -1,5 +1,59 @@
 body {
-  margin: 0;
   padding: 0;
   font-family: sans-serif;
+  margin: 48px auto 48px auto;
+  background-color: linen;
+}
+
+h1 {
+  margin-top: 24px;
+}
+
+h2 {
+  margin-top: 18px;
+}
+
+h3 {
+  margin-top: 12px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+img {
+  display: block;
+}
+
+.buttons {
+  margin: 24px auto;
+  width: 520px;
+}
+
+.buttons button,
+.card button {
+  padding: 4px 8px;
+}
+
+.card {
+  background: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 12px 24px;
+  width: 520px;
+  box-shadow: 0 2px 0 rgba(9, 30, 66, 0.25);
+  margin: 0 auto 12px auto;
+}
+
+.card--done {
+  opacity: 0.7;
+}
+
+.card button {
+  cursor: pointer;
+}
+
+.card img {
+  text-align: left;
+  margin: 0;
 }

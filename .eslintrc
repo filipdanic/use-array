@@ -1,3 +1,4 @@
+
 {
   "parser": "babel-eslint",
   "extends": [
@@ -16,8 +17,10 @@
   "rules": {
     // don't force es6 functions to include space before paren
     "space-before-function-paren": 0,
-
     // allow specifying true explicitly for boolean props
-    "react/jsx-boolean-value": 0
+    "react/jsx-boolean-value": 0,
+    "comma-dangle": 0,
+    "padded-blocks": 0,
+    "semi": 0
   }
 }

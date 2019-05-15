@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react';
+import Intro from './Intro';
+import Demo from './Demo';
+import Docs from './Docs';
 
-import ExampleComponent from 'use-array'
+const App = () =>
+  <div>
+    <Intro />
+    <Demo />
+    <Docs />
+  </div>;
 
-export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
-}
+export default App;
